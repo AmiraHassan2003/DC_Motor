@@ -1,0 +1,293 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4620 ]
+[d frameptr 4065 ]
+"31 D:\Embedded\Microcontroller\Projects\DC_Motor\project1\Code\ECU/DC_Motor/ecu_dcMotor.c
+[e E2514 . `uc
+GPIO_LOW 0
+GPIO_HIGH 1
+]
+"86
+[e E2510 . `uc
+GPIO_OUTPUT 0
+GPIO_INPUT 1
+]
+"34 D:\Embedded\Microcontroller\Projects\DC_Motor\project1\Code\MCAL/GPIO/hal_gpio.c
+[e E2510 . `uc
+GPIO_OUTPUT 0
+GPIO_INPUT 1
+]
+"53
+[e E2514 . `uc
+GPIO_LOW 0
+GPIO_HIGH 1
+]
+"119
+[e E2493 . `uc
+GPIO_PORTA 0
+GPIO_PORTB 1
+GPIO_PORTC 2
+GPIO_PORTD 3
+GPIO_PORTE 4
+]
+"14 D:\Embedded\Microcontroller\Projects\DC_Motor\project1\Code\project.c
+[e E2493 . `uc
+GPIO_PORTA 0
+GPIO_PORTB 1
+GPIO_PORTC 2
+GPIO_PORTD 3
+GPIO_PORTE 4
+]
+[e E2500 . `uc
+GPIO_PIN0 0
+GPIO_PIN1 1
+GPIO_PIN2 2
+GPIO_PIN3 3
+GPIO_PIN4 4
+GPIO_PIN5 5
+GPIO_PIN6 6
+GPIO_PIN7 7
+]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"6 D:\Embedded\Microcontroller\Projects\DC_Motor\project1\Code\ECU/DC_Motor/ecu_dcMotor.c
+[v _dc_motor_initialize dc_motor_initialize `(uc  1 e 1 0 ]
+"21
+[v _dc_motor_move_right dc_motor_move_right `(uc  1 e 1 0 ]
+"38
+[v _dc_motor_move_left dc_motor_move_left `(uc  1 e 1 0 ]
+"54
+[v _dc_motor_stop dc_motor_stop `(uc  1 e 1 0 ]
+"84
+[v _dc_motor_config dc_motor_config `(v  1 s 1 dc_motor_config ]
+"16 D:\Embedded\Microcontroller\Projects\DC_Motor\project1\Code\MCAL/GPIO/hal_gpio.c
+[v _gpio_pin_direction_initialize gpio_pin_direction_initialize `(uc  1 e 1 0 ]
+"53
+[v _gpio_pin_write_logic gpio_pin_write_logic `(uc  1 e 1 0 ]
+"103
+[v _gpio_pin_initialize gpio_pin_initialize `(uc  1 e 1 0 ]
+"68 D:\Embedded\Microcontroller\Projects\DC_Motor\project1\Code\project.c
+[v _main main `(v  1 e 1 0 ]
+"91
+[v _initialization initialization `(v  1 e 1 0 ]
+"52 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4620.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"189
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"360
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"535
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"677
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+"880
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"992
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"1104
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"1216
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"1328
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"1380
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1602
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1824
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2046
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2268
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"11 D:\Embedded\Microcontroller\Projects\DC_Motor\project1\Code\MCAL/GPIO/hal_gpio.c
+[v _tris_registers tris_registers `[5]*.39VEuc  1 e 10 0 ]
+"12
+[v _port_registers port_registers `[5]*.39VEuc  1 e 10 0 ]
+"13
+[v _lat_registers lat_registers `[5]*.39VEuc  1 e 10 0 ]
+[s S24 . 1 `uc 1 Port 1 0 :4:0 
+`uc 1 Pin 1 0 :3:4 
+`uc 1 Status 1 0 :1:7 
+]
+"14 D:\Embedded\Microcontroller\Projects\DC_Motor\project1\Code\project.c
+[s S28 . 2 `[2]S24 1 pin_config_dc_motor 2 0 ]
+[v _dc_motor1 dc_motor1 `S28  1 e 2 0 ]
+"25
+[v _dc_motor2 dc_motor2 `S28  1 e 2 0 ]
+"68
+[v _main main `(v  1 e 1 0 ]
+{
+"89
+} 0
+"91
+[v _initialization initialization `(v  1 e 1 0 ]
+{
+"96
+} 0
+"6 D:\Embedded\Microcontroller\Projects\DC_Motor\project1\Code\ECU/DC_Motor/ecu_dcMotor.c
+[v _dc_motor_initialize dc_motor_initialize `(uc  1 e 1 0 ]
+{
+[s S30 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+"12
+[v dc_motor_initialize@pin_config2 pin_config2 `S30  1 a 1 13 ]
+[v dc_motor_initialize@pin_config1 pin_config1 `S30  1 a 1 12 ]
+"8
+[v dc_motor_initialize@ret ret `uc  1 a 1 11 ]
+[s S24 . 1 `uc 1 Port 1 0 :4:0 
+`uc 1 Pin 1 0 :3:4 
+`uc 1 Status 1 0 :1:7 
+]
+"6
+[s S28 . 2 `[2]S24 1 pin_config_dc_motor 2 0 ]
+[v dc_motor_initialize@dc_motor dc_motor `*.30CS28  1 p 1 10 ]
+"19
+} 0
+"103 D:\Embedded\Microcontroller\Projects\DC_Motor\project1\Code\MCAL/GPIO/hal_gpio.c
+[v _gpio_pin_initialize gpio_pin_initialize `(uc  1 e 1 0 ]
+{
+"105
+[v gpio_pin_initialize@ret ret `uc  1 a 1 9 ]
+[s S30 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+"103
+[v gpio_pin_initialize@_pin_config _pin_config `*.30CS30  1 p 1 7 ]
+"114
+} 0
+"16
+[v _gpio_pin_direction_initialize gpio_pin_direction_initialize `(uc  1 e 1 0 ]
+{
+[s S30 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+[v gpio_pin_direction_initialize@_pin_config _pin_config `*.30CS30  1 p 1 0 ]
+"37
+} 0
+"54 D:\Embedded\Microcontroller\Projects\DC_Motor\project1\Code\ECU/DC_Motor/ecu_dcMotor.c
+[v _dc_motor_stop dc_motor_stop `(uc  1 e 1 0 ]
+{
+[s S30 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+"61
+[v dc_motor_stop@pin_config2 pin_config2 `S30  1 a 1 10 ]
+[v dc_motor_stop@pin_config1 pin_config1 `S30  1 a 1 9 ]
+"56
+[v dc_motor_stop@ret ret `uc  1 a 1 8 ]
+[s S24 . 1 `uc 1 Port 1 0 :4:0 
+`uc 1 Pin 1 0 :3:4 
+`uc 1 Status 1 0 :1:7 
+]
+"54
+[s S28 . 2 `[2]S24 1 pin_config_dc_motor 2 0 ]
+[v dc_motor_stop@dc_motor dc_motor `*.30CS28  1 p 1 7 ]
+"68
+} 0
+"21
+[v _dc_motor_move_right dc_motor_move_right `(uc  1 e 1 0 ]
+{
+[s S30 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+"28
+[v dc_motor_move_right@pin_config2 pin_config2 `S30  1 a 1 10 ]
+[v dc_motor_move_right@pin_config1 pin_config1 `S30  1 a 1 9 ]
+"23
+[v dc_motor_move_right@ret ret `uc  1 a 1 8 ]
+[s S24 . 1 `uc 1 Port 1 0 :4:0 
+`uc 1 Pin 1 0 :3:4 
+`uc 1 Status 1 0 :1:7 
+]
+"21
+[s S28 . 2 `[2]S24 1 pin_config_dc_motor 2 0 ]
+[v dc_motor_move_right@dc_motor dc_motor `*.30CS28  1 p 1 7 ]
+"35
+} 0
+"38
+[v _dc_motor_move_left dc_motor_move_left `(uc  1 e 1 0 ]
+{
+[s S30 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+"45
+[v dc_motor_move_left@pin_config2 pin_config2 `S30  1 a 1 10 ]
+[v dc_motor_move_left@pin_config1 pin_config1 `S30  1 a 1 9 ]
+"40
+[v dc_motor_move_left@ret ret `uc  1 a 1 8 ]
+[s S24 . 1 `uc 1 Port 1 0 :4:0 
+`uc 1 Pin 1 0 :3:4 
+`uc 1 Status 1 0 :1:7 
+]
+"38
+[s S28 . 2 `[2]S24 1 pin_config_dc_motor 2 0 ]
+[v dc_motor_move_left@dc_motor dc_motor `*.30CS28  1 p 1 7 ]
+"52
+} 0
+"53 D:\Embedded\Microcontroller\Projects\DC_Motor\project1\Code\MCAL/GPIO/hal_gpio.c
+[v _gpio_pin_write_logic gpio_pin_write_logic `(uc  1 e 1 0 ]
+{
+[s S30 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+[v gpio_pin_write_logic@_pin_config _pin_config `*.30CS30  1 p 1 0 ]
+[v gpio_pin_write_logic@logic logic `E2514  1 p 1 1 ]
+"74
+} 0
+"84 D:\Embedded\Microcontroller\Projects\DC_Motor\project1\Code\ECU/DC_Motor/ecu_dcMotor.c
+[v _dc_motor_config dc_motor_config `(v  1 s 1 dc_motor_config ]
+{
+[s S30 . 1 `uc 1 Port 1 0 :3:0 
+`uc 1 Pin 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+[v dc_motor_config@pin_config1 pin_config1 `*.30S30  1 p 1 0 ]
+[v dc_motor_config@pin_config2 pin_config2 `*.30S30  1 p 1 1 ]
+[s S24 . 1 `uc 1 Port 1 0 :4:0 
+`uc 1 Pin 1 0 :3:4 
+`uc 1 Status 1 0 :1:7 
+]
+[s S28 . 2 `[2]S24 1 pin_config_dc_motor 2 0 ]
+[v dc_motor_config@dc_motor dc_motor `*.30CS28  1 p 1 2 ]
+"95
+} 0
